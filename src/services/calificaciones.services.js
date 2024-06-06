@@ -22,7 +22,6 @@ const modificarCalificacion = async (id, data) => {
 
 const borrarCalificacion = async (id) => {
     const calificacion = await model.borrarCalificacion(id)
-    console.log(calificacion)
     return calificacion
 }
 
