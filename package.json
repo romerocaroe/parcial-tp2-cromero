@@ -3,7 +3,10 @@
   "version": "1.0.0",
   "description": "node.js & express parcial",
   "main": "index.js",
+  "type": "module",
   "scripts": {
+    "start": "node .",
+    "watch": "node --watch .",
     "test": "npm run test"
   },
   "repository": {
