@@ -1,0 +1,23 @@
+{
+  "name": "parcial-tp2-cromero",
+  "version": "1.0.0",
+  "description": "node.js & express parcial",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/romerocaroe/parcial-tp2-cromero.git"
+  },
+  "author": "Carolina Romero",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/romerocaroe/parcial-tp2-cromero/issues"
+  },
+  "homepage": "https://github.com/romerocaroe/parcial-tp2-cromero#readme",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2"
+  }
+}
