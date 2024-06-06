@@ -19,7 +19,12 @@ Obtener un alumno por ID (GET)
 ```
 http://localhost:8080/calificaciones/ID
 ```
-Agregar alumno (POST) Para agregarlo se debe envíar en formato JSON como { "calificaciones": [{"nombre": "", "nota": 0}]}. Ya que se puede agregar más de uno.
+Agregar alumno (POST) 
+Para agregarlo se debe envíar en formato JSON como 
+```json
+{ "calificaciones": [{"nombre": "", "nota": 0}]}
+```
+Ya que se puede agregar más de uno.
 ```
 http://localhost:8080/calificaciones
 ```
